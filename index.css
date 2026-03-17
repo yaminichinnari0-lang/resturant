@@ -44,7 +44,6 @@ nav a:hover{
     align-items: center;
     text-align: center;
     background: url("res.jpeg") center/cover no-repeat;
-    backdrop-filter: blur(10px);
     position: relative;
 }
 
