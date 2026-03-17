@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="menu.css">
+     <link rel="stylesheet" href="index.css">
+</head>
+<body>
+     <header>
+        <div class="hero">Royale Blossom</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href=".menu-class">Menu</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <section class="menu-class">
+        <div class="menu-text">CULINARY EXCELLENCE</div>
+       <h1 class="main-heading">Our Menu</h1>
+        </section>
+       <div class="menu-tabs">
+       <button onclick="showMenu('starters')">STARTERS</button>
+       <button onclick="showMenu('pasta')">PASTA</button>
+       <button onclick="showMenu('pizza')">PIZZA</button>
+       <button onclick="showMenu('sides')">SIDES</button>
+       <button onclick="showMenu('biryani')">BIRYANI</button>
+       <button onclick="showMenu('desserts')">DESSERTS</button>
+       </div>
+       <div class="menu-btn">
+       <div id="starters" class="menu-box">
+          <h2>Starters</h2>
+    
+          <span class="dish">Truffle Burrata</span><span class="price">$18</span>
+          <p>Creamy burrata with black truffle,heirloom tomatoes & basil oil</p>
+          
+          <span class="dish">Tuna Tartare</span><span class="price">$22</span>
+          <p>Yellowfin tuna with avocado,sesame,soy-ginger dressing</p>
+
+          <span class="dish">French Onion Soup</span><span class="price">$14</span>
+          <p>Caramelized onions,Guyere cruton,rich beef broth</p>
+
+          <span class="dish">Lobester Bisque</span><span class="price">$19</span>
+          <p>Velvety lobster bisque with cognac cream and chives</p>
+
+          <span class="dish">Beef Carpaccio</span><span class="price">$24</span>
+          <p>Thinly sliced wagyu,arugula,parmesam,truffle vinaigrette</p>
+
+          <span class="dish">Scared Scallops</span><span class="price">$18</span>
+          <p>Pan-seared diver scallops with cauliflower puree & pancetta</p>
+
+          <span class="dish">Chicken 65</span><span class="price">$19</span>
+          <p>A crispy,spicy fried chicken starter full of bold flavour</p>
+
+          <span class="dish">Chicken Thandori</span><span class="price">$20</span>
+          <p>It is a smoky,juicy chicken marinated in spiced yogurt and roasted</p>
+
+          <span class="dish">Fish Thandori</span><span class="price">$20</span>
+          <p>It is a spicy,smoky fish marinated in flavourful spices and grilled</p>
+       </div>
+       </div>
+       <div class="menu-btn">
+       <div id="pasta" class="menu-box">
+          <h2>Pasta</h2>
+    
+          <span class="dish">Spaghetti Bolognese</span><span class="price">$20</span>
+          <p>Classic spaghetti tossed in a rich tomato and ground beef meat sause</p>
+          
+          <span class="dish">Fettuccine Alfredo</span><span class="price">$22</span>
+          <p>Flat noodles coated in a creamy butter, garlic, and Parmesan sauce</p>
+
+          <span class="dish">Mac and Cheese</span><span class="price">$18</span>
+          <p>Elbow pasta mixed with rich, melted cheddar cheese sauce</p>
+
+          <span class="dish">Penne Arrabbiata</span><span class="price">$15</span>
+          <p>Tube-shaped pasta in a spicy tomato and garlic sauce</p>
+
+          <span class="dish">Lasagna</span><span class="price">$20</span>
+          <p>Layered pasta sheets with meat sauce, ricotta, and melted cheese</p>
+
+          <span class="dish">Ravioli</span><span class="price">$22</span>
+          <p>Stuffed pasta pockets filled with cheese, meat, or spinach</p>
+
+          <span class="dish">Linguine with Clam Sauce</span><span class="price">$26</span>
+          <p>Thin pasta tossed with clams, garlic, olive oil, and herbs</p>
+       </div>
+       </div>
+       <div class="menu-btn">
+       <div id="pizza" class="menu-box">
+          <h2>Pizza</h2>
+    
+          <span class="dish">Margherita Pizza</span><span class="price">$18</span>
+          <p>Classic pizza with tomato sauce, fresh mozzarella, and basil</p>
+          
+          <span class="dish">Pepperoni Pizza</span><span class="price">$21</span>
+          <p>Loaded with spicy pepperoni slices and melted mozzarella cheese</p>
+
+          <span class="dish">BBQ Chicken Pizza</span><span class="price">$24</span>
+          <p>Grilled chicken, BBQ sauce, red onions, and cheese on a crispy crust</p>
+
+          <span class="dish">Hawaiian Pizza</span><span class="price">$21</span>
+          <p>Sweet and savory combo of ham, pineapple, and mozzarella</p>
+
+          <span class="dish">Veggie Pizza</span><span class="price">$20</span>
+          <p>Topped with bell peppers, olives, onions, mushrooms, and tomatoes</p>
+
+          <span class="dish">Meat Lovers Pizza</span><span class="price">$26</span>
+          <p>Packed with pepperoni, sausage, bacon, and ham</p>
+
+          <span class="dish">Buffalo Chicken Pizza</span><span class="price">$23</span>
+          <p>Spicy buffalo chicken with mozzarella and ranch drizzle</p>
+       </div>
+       </div>
+       <div class="menu-btn">
+       <div id="sides" class="menu-box">
+          <h2>Sides</h2>
+    
+          <span class="dish"></span><span class="price">$8</span>
+          <p>Crispy golden potato fries lightly salted and served hot</p>
+          
+          <span class="dish">Garlic Bread</span><span class="price">$9</span>
+          <p>Toasted bread topped with garlic butter and herbs</p>
+
+          <span class="dish">Caesar Salad</span><span class="price">$12</span>
+          <p>Fresh romaine lettuce with Caesar dressing, croutons, and Parmesan</p>
+
+          <span class="dish">Mozzarella Sticks</span><span class="price">$13</span>
+          <p>Breaded and fried cheese sticks served with marinara sauce</p>
+
+          <span class="dish">Onion Rings</span><span class="price">$10</span>
+          <p>Thick-cut onions coated in crispy batter and fried</p>
+
+          <span class="dish">Mashed Potatoes</span><span class="price">$9</span>
+          <p>Smooth and creamy mashed potatoes, often served with gravy</p>
+
+          <span class="dish">Coleslaw</span><span class="price">$7</span>
+          <p>Fresh shredded cabbage mixed with creamy dressing</p>
+       </div>
+       </div>
+       <div class="menu-btn">
+       <div id="biryani" class="menu-box">
+          <h2>Biryani</h2>
+    
+          <span class="dish">Chicken Biryani</span><span class="price">$20</span>
+          <p>Fragrant basmati rice layered with spiced chicken and aromatic herbs</p>
+          
+          <span class="dish">Mutton (Lamb) Biryani</span><span class="price">$24</span>
+          <p>Slow-cooked lamb mixed with flavorful rice and traditional spices</p>
+
+          <span class="dish">Vegetable Biryani</span><span class="price">$18</span>
+          <p>Basmati rice cooked with fresh vegetables and aromatic spices</p>
+
+          <span class="dish">Shrimp Biryani</span><span class="price">$26</span>
+          <p>Juicy shrimp layered with spiced rice and fresh herbs</p>
+
+          <span class="dish">Paneer Biryani</span><span class="price">$19</span>
+          <p>Soft paneer cubes cooked with basmati rice and rich spices</p>
+
+          <span class="dish">Beef Biryani</span><span class="price">$22</span>
+          <p>Tender beef pieces layered with flavorful rice and traditional masalas.</p>
+
+          <span class="dish">Chicken Tikka Biryani</span><span class="price">$22</span>
+          <p>Smoky grilled chicken tikka layered with fragrant basmati rice and spices</p>
+          <span class="dish">Egg Biryani</span><span class="price">$17</span>
+          <p>Spiced basmati rice mixed with boiled eggs and aromatic herb</p>
+          <span class="dish">Hyderabadi Dum Biryani</span><span class="price">$24</span>
+          <p>Traditional slow-cooked biryani sealed and steamed for deep flavor</p>
+       </div>
+       </div>
+       <div class="menu-btn">
+       <div id="desserts" class="menu-box">
+          <h2>Desserts</h2>
+    
+          <span class="dish">Cheesecake</span><span class="price">$10</span>
+          <p>Rich and creamy baked cheesecake with a buttery graham cracker crust</p>
+          <span class="dish">Chocolate Lava Cake</span><span class="price">$12</span>
+          <p>Warm chocolate cake with a gooey molten center</p>
+          <span class="dish">Ice Cream Sundae</span><span class="price">$9</span>
+          <p>Scoops of ice cream topped with syrup, whipped cream, and nuts</p>
+          <span class="dish">Apple Pie</span><span class="price">$11</span>
+          <p>Traditional baked pie filled with sweet cinnamon apples</p>
+          <span class="dish">Brownie with Ice Cream</span><span class="price">$12</span>
+          <p>Warm fudgy brownie served with a scoop of vanilla ice cream</p>
+          <span class="dish">Donuts</span><span class="price">$8</span>
+          <p>Soft fried dough rings coated with sugar or chocolate glaze</p>
+          <span class="dish">Tiramisu</span><span class="price">$13</span>
+          <p>Coffee-flavored layered dessert with mascarpone cream and cocoa</p>
+          
+          
+       </div>
+       </div>
+</body>
+<footer class="footer">
+    <div class="footer-container" id="footer">
+
+        <!-- Column 1 -->
+        <div class="footer-col">
+            <h2 class="footer-logo">Royale Blossom</h2>
+            <p>
+                An exquisite culinary journey where traditional recipes meet
+                modern artistry. Every dish tells a story of passion and precision.
+            </p>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="footer-col">
+            <h3>Contact Info</h3>
+            <p>📍 Jubilee Hills, Hyderabad, Telangana 500033</p>
+            <p>📞 +91 8074429408</p>
+            <p>⏰ Mon–Sun: 11:00 AM – 11:00 PM</p>
+        </div>
+
+    </div>
+<script>
+function showMenu(id){
+    let menus = document.querySelectorAll(".menu-box");
+    menus.forEach(menu => menu.style.display = "none");
+
+    document.getElementById(id).style.display = "block";
+}
+</script>
+</html>

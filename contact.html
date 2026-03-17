@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="index.css"> 
+    <link rel="stylesheet" href="contact.css"> 
+</head>
+<body>
+    <header>
+        <div class="hero">Royale Blossom</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About</a>
+            <a href=".contact-text">Contact</a>
+        </nav>
+    </header>
+    <section class="contact-text">
+    <div class="contact">GET  IN  TOUCH</div>
+    <h1>Contact Us</h1>
+    </section>
+    <div class="outer">
+        <div class="inner">
+            <h3>We'd Love to Hear From You</h3>
+            <p>Whether  you're  planning  a  private  event, have dietary questions, or<br>
+
+                want to consult  with  our  sommelier - reach  out  and  we'll  make  it<br> 
+
+                happen
+            </p>
+
+        <div class="info-box">
+        <p>Address</p>
+        <p  class="main">Jubilee Hills, Hyderabad, Telangana 500033</p>
+        <p>Phone </p>
+        <p  class="main">+91 000 000 0000</p>
+        <p>Email</p>
+        <p  class="main">reservations@gmail.com</p>
+        <p >Hours</p>
+        <p class="main">Mon–Sun 11AM–11PM</p>
+      </div>
+    </div>
+    <div class="contact-form">
+      <form action="https://formsubmit.co/yaminichinnari0@gmail.com" method="POST">
+        <p>NAME *</p>
+        <input type="text" name="name" placeholder="Your full name" required>
+        <P>EMAIL *</P>
+        <input type="email" name="email" placeholder="your@email.com" required>
+        <P>PHONE</P>
+        <input type="tel" name="number" placeholder="+91 000 000 0000">
+        <P>MESSAGE *</P>
+        <textarea name="message" placeholder="Tell us about your event..."></textarea>
+        <button type="submit">SEND MESSAGE</button>
+      </form>
+    </div>
+
+    </div>
+    <script>
+    const form = document.getElementById("contactForm");
+const successMessage = document.getElementById("successMessage");
+
+form.addEventListener("submit", function() {
+    successMessage.textContent = "Message sent successfully!";
+});
+</script>
+
+</body>
+<footer class="footer">
+    <div class="footer-container" id="footer">
+
+        <!-- Column 1 -->
+        <div class="footer-col">
+            <h2 class="footer-logo">Royale Blossom</h2>
+            <p>
+                An exquisite culinary journey where traditional recipes meet
+                modern artistry. Every dish tells a story of passion and precision.
+            </p>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="footer-col">
+            <h3>Contact Info</h3>
+            <p>📍 Jubilee Hills, Hyderabad, Telangana 500033</p>
+            <p>📞 +91 8074429408</p>
+            <p>⏰ Mon–Sun: 11:00 AM – 11:00 PM</p>
+        </div>
+
+    </div>
+</html>
